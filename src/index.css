@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
+  /* margin: 0; */
+  background-color: #181818;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,42 +17,48 @@ code {
     monospace;
 }
 
-header {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
   background-color: #000;
-  color: #e50914;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 4rem;
+}
+
+.netflix_title {
   font-size: 2rem;
   font-weight: 700;
+  color: #e50914;
+}
+
+.nav_right {
+  color: #fff;
+  font-size: 0.8rem;
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+.nav_join_button {
+  background-color: #e50914;
+  color: #fff;
+  margin-right: 1rem;
+  padding: 0.2rem 1rem;
+}
+
+.nav_sign_in_button {
+  border: 1px solid #fff;
+  margin-right: 1rem;
+  padding: 0.2rem 1.2rem;
 }
 
 main {
-  background-color: #181818;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   font-size: 20px;
 }
 
-h1{
-  font-size: 3rem;
-  font-weight: 900;
-}
-
-.a_categorie {
-  margin-top: 50px;
-}
-
-.a_categorie_list {
-  display: inline-flex;
-}
-
-.a_movie{
-  margin-right: 0.8rem;
-}
-
-.movie_title{
-  font-size: 16px;
-}
-
-.description {
-  width: 550px;
+footer{
+  color: #fff;
+  height: 10rem;
+  padding: 1rem 4rem;
 }
