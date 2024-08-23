@@ -1,28 +1,11 @@
-import { useState } from "react";
-import Dashboard from "./components/Dashboard";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
+import { Button } from "@/components/ui/button";
 
-export default function App() {
-  const [isSearching, setIsSearching] = useState(false);
-
-  function handleSearch(value) {
-    setIsSearching(value);
-  }
-
+function App() {
   return (
     <>
-      <header>
-        <Navbar onSearch={handleSearch} />
-      </header>
-
-      <main className="main">
-        <Dashboard isSearching={isSearching} />
-      </main>
-
-      <footer>
-        <Footer />
-      </footer>
+      <Button>Click me</Button>
     </>
   );
 }
+
+export default App;
