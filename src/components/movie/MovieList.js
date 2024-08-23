@@ -8,7 +8,7 @@ const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 function MovieList({ movies }) {
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 4,
@@ -45,7 +45,7 @@ function MovieList({ movies }) {
       <div className="mt-12">
         {movies.map((data, key) => (
           <div key={key} className="mt-16">
-            <p className="mb-4">{data.genre.name}</p>
+            <p className="mb-4 mx-2">{data.genre.name}</p>
             <div className="slider-container">
               <Slider {...settings}>
                 {data.movieList.map((movie, key2) => (
