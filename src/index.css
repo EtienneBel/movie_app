@@ -5,15 +5,17 @@
 body {
   /* margin: 0; */
   background-color: #181818;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  /* 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -25,30 +27,52 @@ code {
   padding: 0.5rem 4rem;
 }
 
+.navbar_home-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem 6rem 6rem;
+}
+
 .netflix_title {
   font-size: 2rem;
   font-weight: 700;
   color: #e50914;
 }
 
+.netflix-logo-svg-home-page {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  display: block;
+}
+
 .nav_right {
   color: #fff;
   font-size: 0.8rem;
   display: flex;
-  margin-top: 0.6rem;
+  margin-top: 0.3rem;
 }
 
 .nav_join_button {
   background-color: #e50914;
   color: #fff;
   margin-right: 1rem;
-  padding: 0.2rem 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .nav_sign_in_button {
   border: 1px solid #fff;
   margin-right: 1rem;
-  padding: 0.2rem 1.2rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.text_unlimited_tv {
+  font-size: 0.8rem;
 }
 
 main {
@@ -57,8 +81,45 @@ main {
   font-size: 20px;
 }
 
-footer{
+footer {
   color: #fff;
   height: 10rem;
   padding: 1rem 4rem;
+}
+
+.wallpaper_container {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0 0 0 / 79%),
+      rgb(5 4 4 / 68%) 50%,
+      rgb(0 0 0 / 72%)
+    ),
+    url(/src/assets/netflix_wallpaper.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-block-euy28770 {
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.text-block-euy28771 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.text-block-euy28772 {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
 }

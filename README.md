@@ -1,6 +1,3 @@
-
-
-
 ### Features
 To clone Netflix, some key features to implement:
 

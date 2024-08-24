@@ -1,12 +1,12 @@
+import Dashboard from "@/components/dashboard/Dashboard";
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navbar/Navbar";
 import { useState } from "react";
-import Dashboard from "./components/Dashboard";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
 
-export default function App() {
+export default function ListMovies() {
   const [isSearching, setIsSearching] = useState(false);
 
-  function handleSearch(value) {
+  function handleSearch(value: any) {
     setIsSearching(value);
   }
 
