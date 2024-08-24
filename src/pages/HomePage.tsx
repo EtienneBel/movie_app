@@ -1,5 +1,3 @@
-import netflix_wallpaper from "../assets/netflix_wallpaper.webp";
-
 export default function HomePage() {
   return (
     <>
@@ -41,6 +39,11 @@ export default function HomePage() {
               Ready to watch? Enter your email to create or restart your
               membership.
             </p>
+            <div className="my-8 flex justify-center">
+              <a href="/movies" className="btn_get_started">
+                Get Started
+              </a>
+            </div>
           </div>
           <div className="basis-1/4"></div>
         </div>
