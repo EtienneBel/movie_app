@@ -49,6 +49,7 @@ function MovieList({ movies }: any) {
               <Slider {...settings}>
                 {data.movieList.map((movie: any, key2: any) => (
                   <Movie
+                    id={movie.id}
                     key={key2}
                     src={IMAGE_BASE_URL + movie.backdrop_path}
                     title={movie.title}

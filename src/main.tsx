@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import ListMovies from "./pages/ListMovies";
 import NotFoundPage from "./pages/NotFoundPage";
+import Movie from "./pages/Movie";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/movies",
     element: <ListMovies />,
+  },
+  {
+    path: "/movies/:movieId",
+    element: <Movie />,
   },
 ]);
 
