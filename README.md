@@ -1,7 +1,5 @@
 # Netflix Clone Project
 
-[Netflix Clone Implementation Order](#netflix-clone-implementation-order)
-- [Netflix Clone Project](#netflix-clone-project)
 - [Netflix Clone Implementation Order](#netflix-clone-implementation-order)
 - [Technologies Involved](#technologies-involved)
 - [Advanced](#advanced)
