@@ -1,5 +1,6 @@
 # Netflix Clone Project
 
+- [Netflix Clone Project](#netflix-clone-project)
 - [Netflix Clone Implementation Order](#netflix-clone-implementation-order)
 - [Technologies Involved](#technologies-involved)
 - [Advanced](#advanced)
@@ -32,7 +33,7 @@
    - Implement search API integration
    - Add debounce for performance
 
-7. Movie/TV Show Details Page
+**7. Movie/TV Show Details Page**
    - Create detailed view for individual movies/shows
    - Implement dynamic routing for movie/show pages
 
@@ -94,7 +95,7 @@
    - React Query or SWR for efficient data fetching and caching
    - Custom hooks for search logic
 
-4. Movie/TV Show Details Page
+**4. Movie/TV Show Details Page**
    - React Router for dynamic routing
    - React Suspense and lazy loading for code splitting
 
