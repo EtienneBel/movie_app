@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import MovieList from "../movie/MovieList";
 import Search from "../search/Search";
 import { useGenres } from "../../hooks/useGenres";

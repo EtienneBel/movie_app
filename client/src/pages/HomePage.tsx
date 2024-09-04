@@ -8,7 +8,9 @@ export default function HomePage() {
           <Logo />
           <div className="nav_right">
             <div className="nav_buttons">
-              <button className="nav_join_button">Sign In</button>
+              <a href="/login" className="nav_join_button">
+                Sign In
+              </a>
             </div>
           </div>
         </nav>
